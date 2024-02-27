@@ -15,6 +15,7 @@ class Banco {
         }
     }
 }
-
-const obj = new Banco('', 1050);
+// Nome e saldo da conta.
+const obj = new Banco('Cristian', 1050);
+// Quanto quer sacar.
 obj.sacar(500)
